@@ -8,7 +8,7 @@ let threadsToUse = config.data["threadsToUse/speed"] ?? 1;
 let lastUpdated = 0;
 let doneWorkers = 0;
 let startingTime;
-let maxPrice = 1000000;
+let maxPrice = ;
 let itemDatas = {};
 const workers = [];
 const webhookRegex = /https:\/\/discord.com\/api\/webhooks\/(.+)\/(.+)/;
